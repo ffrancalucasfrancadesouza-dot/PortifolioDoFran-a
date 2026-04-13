@@ -1,0 +1,25 @@
+@import url('home.css');
+@import url('formação.css');
+@import url('habilidade.css');
+@import url('projetos.css');
+@import url('contato.css');
+
+:root{
+    --color-primary-1:rgba(136, 134, 134, 0.671);
+    --color-primary-2: rgba(0, 4, 63, 0.774);
+    --color-primary-3: rgb(255, 255, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins' , sans-serif;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.btn-default{
+    border: none;
+}
+
