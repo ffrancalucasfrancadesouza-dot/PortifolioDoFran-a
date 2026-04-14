@@ -6,7 +6,7 @@
 
 :root{
     --color-primary-1:rgba(136, 134, 134, 0.671);
-    --color-primary-2: rgba(0, 4, 63, 0.774);
+    --color-primary-2: rgba(9, 18, 146, 0.897);
     --color-primary-3: rgb(255, 255, 255);
 }
 *{
@@ -14,12 +14,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'popins' , sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
 }
-a{
-    text-decoration: none;
+.nav-list{
+    display: flex;
+    padding: 30px;
+    background-color: var(--color-primary-2);
+    justify-content: center;
+    box-sizing: border-box;
 }
-.btn-default{
-    border: none;
+.nav-pae{
+    background-color: rgba(0, 0, 0, 0.322);
 }
+
+
 
