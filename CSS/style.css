@@ -14,17 +14,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'popins' , sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(228, 228, 228);
 }
 .nav-list{
     display: flex;
-    padding: 30px;
-    background-color: var(--color-primary-2);
     justify-content: center;
-    box-sizing: border-box;
+    padding: 30px;
+    font-size: larger;
+
 }
 .nav-pae{
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.842);
 }
 
 
