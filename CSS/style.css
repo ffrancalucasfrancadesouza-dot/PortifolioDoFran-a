@@ -16,16 +16,3 @@
     font-family: 'popins' , sans-serif;
     color: rgb(228, 228, 228);
 }
-.nav-list{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    font-size: larger;
-
-}
-.nav-pae{
-    background-color: rgba(0, 0, 0, 0.842);
-}
-
-
-
