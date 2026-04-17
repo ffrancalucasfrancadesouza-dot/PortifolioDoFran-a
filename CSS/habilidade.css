@@ -1,4 +1,49 @@
 .habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
     padding: 100px;
-    background-color: rgb(0, 0, 0);
+}
+.habilidades-titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    padding: 50px;
+}
+.linguagens{
+    background-color: rgba(110, 110, 110, 0.488);
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+.html {
+    text-align: center;
+}
+
+.html i {
+    font-size: 60px;
+    color: #e34c26;
+}
+.python{
+    text-align: center;
+}
+.python i{
+    font-size: 60px;
+    color: #3776ab;
+}
+.js{
+    text-align: center;
+}
+.js i{
+    font-size: 60px;
+    color: #f7df1e;
+}
+.css{
+    text-align: center;
+}
+.css i{
+    font-size: 60px;
+    color: #264de4;
 }
