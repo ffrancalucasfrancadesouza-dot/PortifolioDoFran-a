@@ -1,6 +1,8 @@
-.projetos{
+.projetos1{
     display: flex;
-    flex-direction: column;
-    padding: 100px;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    border-radius: 80px;
     background-color: rgb(95, 95, 95);
 }

@@ -1,4 +1,35 @@
 .contato{
+    display: flex;
+    width: 100%;
     padding: 100px;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+}
+.redes {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.redes a {
+    color: white;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    color: #00bfff;
+    transform: scale(1.2);
+}
+.button-e{
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+.contato p{
+    display: flex;
+    text-align: center;
+    font-size: 100%;
 }
