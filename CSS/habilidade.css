@@ -17,7 +17,19 @@
     align-items: center;
     padding: 50px;
     border-radius: 20px;
+    animation: flutuar 5s ease-in-out infinite;
+
 }
+@keyframes flutuar {
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    
+}
+
 .html {
     text-align: center;
 }

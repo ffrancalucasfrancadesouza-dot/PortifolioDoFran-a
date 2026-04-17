@@ -1,8 +1,10 @@
-.projetos1{
+.projetos{
     display: flex;
-    align-items: center;
-    width: 70%;
-    height: 50%;
-    border-radius: 80px;
-    background-color: rgb(95, 95, 95);
+    background-color: black;
+    border-radius: 40px;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 50px;
+    font-style: normal;
 }
